@@ -1,0 +1,162 @@
+body {
+  background-color: #817d7d;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar nav {
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+li a:hover {
+  color: #53e62e;
+}
+.home .port {
+  background-color: #0b0c10;
+  padding: 15px;
+}
+
+.projects {
+  background-color: #817d7d;
+  color: #0a0a0a;
+  text-align: center;
+}
+.projects h2 {
+  margin-top: 150px;
+}
+
+.projects img {
+  height: 250px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  border: none;
+  outline: none;
+  color: #c5c6c7;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #0b0c10;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #c5c6c7;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #0b0c10;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.skills {
+  background-color: #c5c6c7;
+  height: 300px;
+  margin-bottom: 0;
+}
+
+.skills h2 {
+  text-align: center;
+}
+
+.skills .skill1 li {
+  margin-left: 100px;
+  padding: 15px;
+  color: #0b0c10;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.skills .skill2 {
+  margin-left: 800px;
+  margin-top: -160px;
+  padding: 15px;
+  color: #0b0c10;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.skills .skill2 li {
+  line-height: 50px;
+}
+.resume {
+  margin: 100px;
+}
+
+.resume h2 {
+  color: #313335;
+  text-align: center;
+}
+.rs {
+  margin-left: 140px;
+  height: 800px;
+  width: 1000px;
+  background-color: #f9f9f9;
+}
+
+.rs img {
+  border-radius: 1%;
+  margin-top: 40px;
+  margin-left: 800px;
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  color: aliceblue;
+  padding: 20px;
+}

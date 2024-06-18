@@ -1,0 +1,133 @@
+body {
+  font-family: "Montserrat";
+  justify-content: center;
+  text-align: center;
+}
+.text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.una {
+  color: orange;
+  margin: 30px;
+  animation: una 1s ease-in-out alternate infinite;
+}
+.duha {
+  margin: 30px;
+  animation: duha 1s ease-in-out 0.1s infinite;
+}
+.tulo {
+  margin: 30px;
+  animation: tulo 1s ease-in-out alternate 0.2s infinite;
+}
+.upat {
+  margin: 30px;
+  animation: upat 1s ease-in-out alternate 0.3s infinite;
+}
+
+.planet {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  opacity: 80%;
+  margin: 30px;
+  position: fixed;
+  margin-top: 300px;
+  margin-right: 500px;
+  background-color: skyblue;
+  animation: circle 1s ease-in-out alternate infinite;
+}
+.lingin {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  opacity: 80%;
+  margin: 30px;
+  margin-left: 50x;
+  position: fixed;
+  margin-top: 300px;
+  background-color: orange;
+  animation: lingin 1s ease-in-out alternate 0.2s infinite;
+}
+
+.bilog {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  opacity: 80%;
+  margin: 30px;
+  position: fixed;
+  margin-top: 300px;
+  margin-left: 500px;
+  background-color: lime;
+  animation: bilog 1s ease-in-out alternate 0.4s infinite;
+}
+
+@keyframes circle {
+  50% {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+  }
+}
+@keyframes lingin {
+  50% {
+    height: 200px;
+    width: 200px;
+    background-color: orangered;
+  }
+}
+@keyframes bilog {
+  50% {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+  }
+}
+@keyframes una {
+  from {
+    color: skyblue;
+  }
+  to {
+    color: orange;
+  }
+}
+@keyframes duha {
+  from {
+    color: rgb(15, 143, 182);
+    opacity: 80%;
+  }
+  to {
+    color: rgb(122, 121, 120);
+    opacity: 80%;
+  }
+}
+@keyframes tulo {
+  from {
+    color: rgb(228, 103, 124);
+    opacity: 80%;
+  }
+  to {
+    color: skyblue;
+    opacity: 80%;
+  }
+}
+@keyframes upat {
+  from {
+    color: skyblue;
+    opacity: 80%;
+  }
+  to {
+    color: orange;
+  }
+}

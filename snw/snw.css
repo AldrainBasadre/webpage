@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #92d1f5;
+}
+
+.snowman{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.head {
+    width: 180px;
+    height: 180px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.eyes span {
+    display: inline-block;
+    width: 15px;
+    height: 0px;
+    background: #333;
+    border-radius: 50%;
+    margin: 0 20px;
+    animation: eyes 0.5s linear forwards;
+    animation-delay: 1.5s;
+ }
+
+.eyes {
+    text-align: center;
+    margin-top: 40px;
+}
+.nose {
+    width: 15px;
+    height: 0px;
+    background: red;
+    border-radius: 50%;
+    margin: 0 auto;
+    animation: nose 0.5s linear forwards;
+    animation-delay: 2s;
+}
+.mouth {
+    width: 40px;
+    height: 0px;
+    background: #333;
+    border-radius: 50%;
+    margin: 15px auto 0;
+    animation: mouth 0.5s linear forwards;
+    animation-delay: 2.5s;
+}
+.body {
+    width: 0px;
+    height: 0px; 
+    background: #fff; 
+    border-radius: 50%; 
+    margin-top: -40px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    animation: bod1 1s linear forwards;
+    animation-delay: 0.5s;
+}
+
+.body span {
+    width: 12px;
+    height: 12px; 
+    background: #333;
+    border-radius: 50%;
+    margin: 5px;
+    transform: translateY(20px);
+    visibility: hidden;
+    animation: dots 0.5s linear forwards;
+    animation-delay: 3s;
+}
+
+.left-hand {
+    height: 10px;
+    width: 100px;
+    border-radius: 1px;
+    display: flex; 
+    margin-right: -280px; 
+    background: rgb(74, 45, 13);
+    transform: rotate(145deg);
+}
+
+.right-hand {
+    height: 10px;
+    width: 100px;
+    border-radius: 1px;
+    display: flex; 
+    margin-left: -280px; 
+    background: rgb(74, 45, 13);
+    transform: rotate(-145deg);
+}
+
+
+@keyframes bod1 {
+    100%{
+        width: 250px;
+        height: 250px;
+
+    }
+}
+@keyframes eyes {
+    100%{
+        height: 25px;
+
+    }
+}
+@keyframes nose {
+    100%{
+        height: 30px;
+
+    }
+}
+@keyframes mouth {
+    100%{
+        height: 15px;
+
+    }
+}
+@keyframes dots {
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+
+    }
+}
